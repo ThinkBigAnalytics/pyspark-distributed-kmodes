@@ -9,6 +9,9 @@ from sklearn.base import BaseEstimator, ClusterMixin
 from sklearn.utils.validation import check_array
 import random
 
+from .Kmodes import KModes
+
+
 """
 Ensemble based distributed K-modes clustering for PySpark
 
@@ -285,8 +288,6 @@ def run_local_kmodes(clusters, n_clusters,init = 'Cao', n_init = 1, verbose = 1)
             - *n_init*: (optional) the number of times to run the clustering algorithm (default: 1)
             - *verbose*: (optional) verbosity of output (default: 1)
     """
-    # TODO: this breaks here:
-    from .KModes import Kmodes
     # Now do k-modes on the main machine
     km = KModes(n_clusters = n_clusters, init = init, n_init = n_init, verbose = verbose)
     new_centroids = [cluster.centroid for cluster in clusters]
