@@ -2,17 +2,11 @@
 K-modes clustering
 """
 
-
-# TODO: License
-
-
-# Adapted from Kmodes, https://github.com/nicodv/kmodes 
 # Author: 'Marissa Saunders' <marissa.saunders@thinkbiganalytics.com> 
-# - broadened types to include strings
-
-
-# Original Package Author: 'Nico de Vos' <njdevos@gmail.com>
 # License: MIT
+
+# Adapted from Kmodes <https://github.com/nicodv/kmodes>
+# Original Package Author: 'Nico de Vos' <njdevos@gmail.com>
 
 from collections import defaultdict
 

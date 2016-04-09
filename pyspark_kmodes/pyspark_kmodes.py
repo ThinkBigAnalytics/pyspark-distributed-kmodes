@@ -1,6 +1,5 @@
-# TODO: LICENSE
-
 # Author: 'Marissa Saunders' <marissa.saunders@thinkbiganalytics.com> 
+# License: MIT
 
 from collections import defaultdict
 import numpy as np
@@ -22,7 +21,6 @@ K-modes clustering is performed on each partition of an rdd and the resulting cl
 Relies on an adaptation of the KModes package from https://github.com/nicodv/kmodes for the local iterations
 
 """
-
 
 
 def with_2_arguments(mapper):
@@ -492,4 +490,4 @@ class EnsembleKModesModel:
             predictions = get_cluster_record(data, self.clusters)
         
         return predictions
-    
+
