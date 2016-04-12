@@ -48,6 +48,6 @@ The ``docs`` directory includes a sample Jupyter/iPython notebook to demonstrate
 References
 ----------
 
-* N. Karthikeyani Visalakshi1 and K. Arunprabha, 2015. *Ensemble based Distributed K-Modes Clustering*, International Journal of Engineering Research and Development, Vol. 11, No. 3, pp.79-89, `http://files.figshare.com/2011247/J1137989.pdf <http://files.figshare.com/2011247/J1137989.pdf>`_.
+* NK Visalakshi and K Arunprabha, 2015. *Ensemble based Distributed K-Modes Clustering*, International Journal of Engineering Research and Development, Vol. 11, No. 3, pp.79-89, `http://files.figshare.com/2011247/J1137989.pdf <http://files.figshare.com/2011247/J1137989.pdf>`_.
 
 * Zhexue Huang, 1998. *Extensions to the k-Means Algorithm for Clustering Large Data Sets with Categorical Values*, Data Mining and Knowledge Discovery 2, pp. 283–304, `http://www.cse.ust.hk/~qyang/537/Papers/huang98extensions.pdf <http://www.cse.ust.hk/~qyang/537/Papers/huang98extensions.pdf>`_.
