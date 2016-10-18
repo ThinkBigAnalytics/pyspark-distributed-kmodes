@@ -11,7 +11,7 @@ This repository contains the source code for the `pyspark_kmodes` package to per
 
 K-modes clustering is performed on each partition of a Spark RDD, and the resulting clusters are collected to the driver node. Local K-modes clustering is then performed on the centroids returned from each partition to yield a final set of cluster centroids.
 
-This package was written by `Marissa Saunders <marissa.saunders@thinkbiganalytics.com>`_ and relies on an adaptation of the KModes package by Nico de Vos `https://github.com/nicodv/kmodes <https://github.com/nicodv/kmodes>`_ for the local iterations.
+This package was written by `Marissa Saunders <marissa.saunders@thinkbiganalytics.com>`_ and relies on an adaptation of the KModes package by Nico de Vos `https://github.com/nicodv/kmodes <https://github.com/nicodv/kmodes>`_ for the local iterations. Using this package for clustering Clickstream data is described by Marissa Saunders in this `YouTube video <https://www.youtube.com/watch?v=1fYBTehHHIU>`_.
 
 
 Installation
